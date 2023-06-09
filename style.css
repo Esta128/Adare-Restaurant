@@ -1,0 +1,149 @@
+html {
+	height: 100%;
+}
+
+
+body {
+	background-color: #2F3035;
+	background-image:url("images/background-adare-restaurant.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	min-height: auto;
+}
+
+
+header {
+	height: 118px;
+	text-align: center;
+}
+
+
+nav {
+	background-color: rgba(0,0,0,0.33);
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+
+main {
+	height: 400px;
+	text-align:center;
+	padding-top: 10px;
+	padding-left: 240px;
+	padding-right: 240px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+} 
+
+
+footer {
+	background-color: rgba(0,0,0,0.33);
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+
+h1 {
+	font-size: 84px;
+	color: white;
+}
+
+p {
+	font-size: 16px;
+	color: white;
+	margin-bottom: 50px;
+}
+	
+main a {
+	color:white;
+	font-size: 14px;
+	font-weight:bold;
+	text-decoration: none;
+	background-color: rgb(117, 173, 14);
+	border-radius:5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align:center;
+	
+	
+	
+}
+
+main a:hover {
+	background-color: orange;
+	transform:scale(1.2)
+	
+}
+
+
+nav a {
+	text-decoration: none;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 1024px;
+	color: white;
+
+}
+
+p2 {
+	color: rgba(177,177,177,1.00);
+	font-size: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-bottom: 100px;
+}
+
+
+section{
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+
+section video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+section .navigation {
+	position: absolute;
+	bottom: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+section .navigation li{
+	list-style: none;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 4px;
+	background: #fff;
+	padding: 3px 30px 0;
+	opacity: 0.7;
+
+}
